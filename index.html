@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Conectando Campo e Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">Agrinho <span>2026</span></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#quiz">Desafio Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero / Introdução -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h2>Inovação Tecnológica e Sustentabilidade no Campo</h2>
+                <p>Descubra como a tecnologia digital transforma a agricultura, protege a natureza e alimenta as cidades de forma consciente.</p>
+                <a href="#quiz" class="btn-primary">Testar Conhecimentos</a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section-padding">
+            <div class="container">
+                <header class="section-header">
+                    <h2>O Projeto Agrinho</h2>
+                    <p>Unindo educação e cidadania para construir um futuro sustentável.</p>
+                </header>
+                <div class="grid-2">
+                    <article class="card">
+                        <h3>O papel do Campo</h3>
+                        <p>O produtor rural utiliza cada vez mais a ciência para produzir alimentos saudáveis, economizando água, solo e energia através de práticas regenerativas.</p>
+                    </article>
+                    <article class="card">
+                        <h3>O papel da Cidade</h3>
+                        <p>Os centros urbanos se beneficiam da produção sustentável e conectam-se ao campo consumindo de forma consciente, evitando o desperdício.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Tecnologias -->
+        <section id="tecnologias" class="section-padding bg-light">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Agricultura 4.0</h2>
+                    <p>Ferramentas tecnológicas que guiam o agro moderno.</p>
+                </header>
+                <div class="grid-3">
+                    <div class="tech-item">
+                        <div class="icon">🛸</div>
+                        <h3>Drones e Satélites</h3>
+                        <p>Monitoram a saúde das plantas em tempo real, identificando pragas sem desperdício de defensivos.</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="icon">💧</div>
+                        <h3>Irrigação Inteligente</h3>
+                        <p>Sensores no solo avisam a quantidade exata de água que a planta precisa, evitando escassez.</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="icon">🤖</div>
+                        <h3>Inteligência Artificial</h3>
+                        <p>Preveem o clima e ajudam a planejar a colheita no momento perfeito para maior rendimento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Interativa (Quiz) -->
+        <section id="quiz" class="section-padding">
+            <div class="container quiz-container">
+                <header class="section-header">
+                    <h2>Quiz do Agrinho</h2>
+                    <p>Você conhece a força da sustentabilidade no campo?</p>
+                </header>
+                
+                <div id="quiz-box" class="quiz-box">
+                    <div id="question-container">
+                        <h3 id="question-text">Carregando pergunta...</h3>
+                        <div id="options-container" class="options-grid">
+                            <!-- Inserido via JS -->
+                        </div>
+                    </div>
+                    <div id="result-container" class="hidden">
+                        <h3>Parabéns pela participação!</h3>
+                        <p id="score-text"></p>
+                        <button id="btn-restart" class="btn-primary">Reiniciar Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Projeto Escolar Agrinho. Desenvolvido com foco em sustentabilidade.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
